@@ -297,7 +297,7 @@ overflow: hidden;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding: 32px 201px 32px 16px;
+    padding: 32px 16px;
 }
 
 .portfolio-list-item-title {
@@ -321,14 +321,20 @@ overflow: hidden;
 /* footer start */
 
 .page-footer {
+    padding: 100px 0;
     background-color:  #2e2f42;
 }
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
 
 .footer-text {
+    max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
