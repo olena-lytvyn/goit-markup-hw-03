@@ -133,6 +133,9 @@ a {
     background-color: #404bbf;
 }
 .hero-banner-button {
+    min-width: 169px;
+    height: 56px;
+    border: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
