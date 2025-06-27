@@ -164,7 +164,7 @@ a {
 }
 
 .benefits-list-item {
-    width: calc(100% - 72px)/3;
+    width: calc((100% - 72px) / 4);
 }
 
 .benefits-list-item-title {
@@ -200,6 +200,7 @@ overflow: hidden;
 
 /* team section start */
 .team {
+    padding: 120px 0;
     background-color: #f4f4fd;
 }
 
@@ -208,6 +209,8 @@ overflow: hidden;
 }
 
 .team-title {
+    max-width: 162px;
+    margin: 0 auto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
